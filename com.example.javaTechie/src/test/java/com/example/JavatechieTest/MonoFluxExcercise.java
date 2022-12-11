@@ -21,7 +21,9 @@ public class MonoFluxExcercise {
                 .concatWithValues("RSA")
                 .log();
         fluxString.subscribe(System.out::print, e -> e.getMessage());
-
     }
+
+
+
 
 }
